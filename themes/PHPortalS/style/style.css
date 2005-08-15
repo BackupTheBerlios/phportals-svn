@@ -1,0 +1,391 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+	background-color: #ffffbf;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+	border: 0 black none;
+	border-collapse: collapse;
+}
+
+a:link, a:visited {
+	color: #006666;
+}
+a:hover, a:focus, a:active {
+	color: #ffffbf;
+	background-color: black;
+        text-decoration: none;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0 black none;
+}
+/* Besondere Behandlungen */
+
+/* Rahmentabelle */
+table#frame {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0 black none;
+	border-collapse: collapse;
+}
+/* Logo */
+tr.frame-top {
+}
+td.frame-top {
+}
+td.frame-top div.sitelinks {
+	margin: 0;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+	text-align: right;
+	background-color: black;
+	color: #ffffbf;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+}
+td.frame-top a:link.sitelinks, td.frame-top a:visited.sitelinks {
+	background-color: black;
+	color: #ffffbf;
+	text-decoration: none;
+}
+td.frame-top a:hover.sitelinks, td.frame-top a:focus.sitelinks, td.frame-top a:active.sitelinks {
+	background-color: #ffffbf;
+	color: black;
+	text-decoration: none;
+}
+td.frame-top div.sitelogo {
+	height: 80px;
+	margin: 0;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+	border-bottom: 1px black solid;
+}
+div.sitelogo img.sitelogo {
+	float: left;
+	border: 0 black none;
+}
+div.sitelogo div.banner {
+	float: right;
+	width: 468px;
+	height: 68px;
+	margin: 0;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+	background-color: silver;
+	border: thin darkgrey inset;
+}
+div.banner img {
+	border: 0 black none;
+}
+/* Linker Bereich */
+tr.frame-body {
+}
+td.left-row {
+	width: 250px;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: top;
+	border-right: 1px black solid;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 9pt;
+}
+td.left-row h1.sidebox {
+	width: 75%;
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 0;
+	vertical-align: top;
+	color: #4a4a4a;
+	font-family: "Times New Roman", "Times Roman", times, roman, serif;
+	font-size: 14pt;
+}
+td.left-row div.sidebox {
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 9pt;
+}
+/* Arbeitsbereich */
+td.center-row {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 25px;
+	vertical-align: top;
+	background-color: white;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+}
+
+td.center-row div.layer-1 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 25px;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+}
+td.center-row div.layer-2 {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 5px;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+	border: 1px silver solid;
+}
+/* Previews */
+div.preview {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 10px;
+	vertical-align: top;
+	border: 3px #ffffbf outset;
+}
+
+/* Listen */
+table.list {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+	border: 1px silver solid;
+	border-collapse: collapse;
+}
+table.list tr.title {
+}
+table.list th.list {
+	margin: 0;
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	white-space: nowrap;
+	verticel-align: middle;
+	text-align: left;
+	font-family: "Times New Roman", "Times Roman", times, roman, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #4a4a4a;
+	background-color: #ffffbf;
+	border-bottom: 1px silver solid;
+}
+table.list td.list-odd {
+	margin: 0;
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	verticel-align: top;
+	text-align: left;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 10pt;
+	background-color: white;
+	border-bottom: 1px silver solid;
+}
+table.list td.list-even {
+	margin: 0;
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	verticel-align: top;
+	text-align: left;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 10pt;
+	background-color: #e9e9e9;
+	border-bottom: 1px silver solid;
+}
+table.list img {
+	border: 0 black none;
+}
+
+.message-status {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 10px;;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+	border: 1px darkgrey solid;
+	background-color: silver;
+}
+.message-error {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 10px;;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px red solid;
+	background-color: #ffc4c4;
+}
+
+.message-box {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 25px;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+}
+.message-box h1, .message-box h1.title {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 8px;
+	vertical-align: top;
+	color: #4a4a4a;
+	font-family: "Times New Roman", "Times Roman", times, roman, serif;
+	font-size: 16pt;
+}
+.message-box div.content {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 11pt;
+}
+.message-box div.adminlink {
+	margin: 0;
+	margin-top: 7px;
+	padding: 3px;
+	vertical-align: top;
+	text-align: right;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 8pt;
+	background-color: #ffffbf;
+	border: 1px black solid;
+}
+
+/* Administrationsmenü */
+ul.adminmenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+li.adminmenu {
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	width: 18%;
+	overflow: hidden;
+	vertical-align: baseline;
+	text-align: center;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 9pt;
+}
+li.adminmenu span.adminmenu {
+	/* visibility: hidden; */ /* Wenns unsichtbar sein soll */
+}
+li.adminmenu img {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+/* Rechter Bereich */
+td.right-row {
+	width: 150px;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 5px;
+	vertical-align: top;
+	border-left: 1px silver dotted;
+	background-color: white;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 8pt;
+}
+td.right-row h1.sidebox {
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 0;
+	vertical-align: top;
+	color: #4a4a4a;
+	font-family: "Times New Roman", "Times Roman", times, roman, serif;
+	font-size: 12pt;
+}
+td.right-row div.sidebox {
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 8pt;
+}
+/* Fußzeile */
+td.frame-footer {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: top;
+	border-top: 1px black solid;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 7pt;
+}
+td.frame-footer div.footer {
+	width: 22%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-right: 15px;
+	vertical-align: top;
+	font-family: verdana, helvetica, helv, arial, sans-serif;
+	font-size: 7pt;
+}
+
+/*
+FONT		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+TD		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+BODY		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+P		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+DIV		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+INPUT		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+TEXTAREA	{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+FORM 		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 12px}
+A:link          {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:active        {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:visited       {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:hover         {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.title 		{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 16px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.content 	{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica}
+.storytitle 	{BACKGROUND: none; COLOR: #363636; FONT-SIZE: 14px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.storycat	{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 14px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.boxtitle 	{BACKGROUND: none; COLOR: #363636; FONT-SIZE: 12px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.boxcontent 	{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica}
+.option 	{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 14px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.tiny		{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+*/
+
+

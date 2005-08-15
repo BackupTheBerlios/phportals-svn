@@ -1,0 +1,100 @@
+/* CSS für den TinyMCE */
+
+.red {
+	color: red;
+}
+
+
+/* Default CSS class for links within the editor */
+body {
+	background-color: white;
+	font-family: Verdana, Helv, Helvetica, Arial, Sans-Serif;
+	font-size: 10pt;
+	color: black;
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+}
+
+
+h1 {
+	font-family: "Times New Roman", Times, Roman, Serif;
+	font-weight: bold;
+	font-size: 16pt;
+}
+h2 {
+	font-family: "Times New Roman", Times, Roman, Serif;
+	font-weight: bold;
+	font-size: 14pt;
+}
+h3 {
+	font-family: "Times New Roman", Times, Roman, Serif;
+	font-weight: bold;
+	font-size: 12pt;
+}
+h4 {
+	font-family: "Times New Roman", Times, Roman, Serif;
+	font-weight: bold;
+	font-size: 11pt;
+}
+h5 {
+	font-family: Verdana, HElv, Helvetica, Arial, Sans-Serif;
+	font-weight: bold;
+	font-size: 10pt;
+}
+h6 {
+	font-family: Verdana, HElv, Helvetica, Arial, Sans-Serif;
+	font-weight: bold;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+address {
+	padding-left: 15px;
+	font-family: Verdana, HElv, Helvetica, Arial, Sans-Serif;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+
+.mceLink a:visited {
+	color: #666666;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.mceLink a:active {
+	color: #666666;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.mceLink a:hover {
+	color: #666666;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.mceLink a:link {
+	color: #666666;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.mceLink a {
+	color: #666666;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+a:-moz-any-link {
+	color: #666666;
+}
+
+
+
