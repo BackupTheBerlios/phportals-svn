@@ -141,7 +141,7 @@ class TConfig implements Iterator
      */
     public function valid()
     {
-        return (bool) ($this->current());
+        return ($this->key() != '');
     }
 }
 
